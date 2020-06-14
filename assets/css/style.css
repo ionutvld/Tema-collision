@@ -1,0 +1,116 @@
+body {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.board {
+    background-color: rgb(233, 173, 173);
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+
+/* .player {
+    background: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.player img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+.obstacle {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    /* left: 160px;
+    top: 0;
+    height: 300px;
+    width: 20px; */
+}
+
+
+/* 
+.obstacle:nth-child(2) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 240px;
+    top: 420px;
+    height: 80px;
+    width: 20px;
+}
+
+.obstacle:nth-child(3) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 340px;
+    top: 0;
+    height: 240px;
+    width: 20px;
+}
+
+.obstacle:nth-child(4) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 420px;
+    top: 140px;
+    height: 360px;
+    width: 20px;
+}
+
+.obstacle:nth-child(5) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 500px;
+    top: 0;
+    height: 240px;
+    width: 20px;
+}
+
+.obstacle:nth-child(6) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 580px;
+    top: 160px;
+    height: 340px;
+    width: 20px;
+}
+
+.obstacle:nth-child(7) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 660px;
+    top: 0;
+    height: 280px;
+    width: 20px;
+}
+
+.obstacle:nth-child(8) {
+    background: rgb(122, 150, 158);
+    position: absolute;
+    left: 760px;
+    top: 160px;
+    height: 340px;
+    width: 20px;
+} */
+
+.lives {
+    position: relative;
+    color: black;
+    border: black solid 2px;
+    width: 160px;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+}
