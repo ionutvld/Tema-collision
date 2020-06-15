@@ -212,23 +212,23 @@ class Player {
     }
 }
 
-class GameEngine {
-    lives = 3;
+// class GameEngine {
+//     lives = 3;
 
-    constructor() {
-        new Player(); // player only moves up and down
+//     constructor() {
+//         new Player(); // player only moves up and down
 
-        setTimeout(this.loop.bind(this), 100);
-    }
+//         setTimeout(this.loop.bind(this), 100);
+//     }
 
-    loop() {
-        // create obstacle until reaching limit
-        // move all obstacles to left 1 unit
-        // check collision
-    }
-}
+//     loop() {
+//         // create obstacle until reaching limit
+//         // move all obstacles to left 1 unit
+//         // check collision
+//     }
+// }
 
-new GameEngine();
+// new GameEngine();
 
 let p1 = new Player();
 
