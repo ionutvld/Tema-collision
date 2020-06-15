@@ -71,6 +71,9 @@ function livesRemaining() {
     counter--;
     let span = document.querySelector(".lives span");
     span.innerText = counter;
+    if (counter === 0) {
+        location.reload();
+    }
 }
 
 class Player {
