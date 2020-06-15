@@ -72,6 +72,7 @@ function livesRemaining() {
     let span = document.querySelector(".lives span");
     span.innerText = counter;
     if (counter === 0) {
+        alert("Game will restart!");
         location.reload();
     }
 }
